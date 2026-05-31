@@ -1,0 +1,10 @@
+SELECT 'CC32' as "KEY"
+      ,'text' as "OUTPUT_FORMAT"
+      ,'FTP' as "DEL_CHANNEL"
+      ,'MARSGL' || '.' || 'CC32' || '.' || :P_AMOUNT_TYPE || '.txt' || '.' || TO_CHAR(SYSDATE, 'MMDDYYYYHH24MISS') as "OUTPUT_NAME"
+      ,'true' as "SAVE_OUTPUT"
+      ,FND_PROFILE.VALUE('CCLF_BI_SFTP_SERVER') as "PARAMETER1"
+      ,:P_DEST_DIR as "PARAMETER4"
+      ,'MARSGL' || '.' || 'CC32' || '.' || :P_AMOUNT_TYPE || '.txt' || '.' || TO_CHAR(SYSDATE, 'MMDDYYYYHH24MISS') as "PARAMETER5"
+      ,'true' as "PARAMETER6"
+FROM sys.dual

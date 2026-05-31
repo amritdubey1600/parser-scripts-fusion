@@ -1,0 +1,1 @@
+select type.name, type.cust_trx_type_seq_id,  type.description from ra_cust_trx_types_all type order by name
