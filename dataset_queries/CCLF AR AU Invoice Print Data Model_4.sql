@@ -1,0 +1,1 @@
+select distinct name,legal_entity_id from xle_entity_profiles

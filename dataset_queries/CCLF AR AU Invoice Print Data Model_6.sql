@@ -1,0 +1,1 @@
+select distinct trx_number from ra_customer_trx_all where complete_flag = 'Y' and org_id =:p_business_unit and legal_entity_id = :p_legal_entity
