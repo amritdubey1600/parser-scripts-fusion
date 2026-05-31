@@ -1,0 +1,1 @@
+SELECT bu_name,bu_id from fun_all_business_units_v where bu_name like '%DG%' order by bu_name

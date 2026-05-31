@@ -1,0 +1,11 @@
+SELECT 'PASS' AS "KEY"
+       ,'Cirrus AVD Reclass Extract' AS "TEMPLATE"
+       ,'text' AS "OUTPUT_FORMAT"
+       ,'FTP' AS "DEL_CHANNEL"
+       ,'CCLFGL.CCLFGL_AVDJE.CCLJEES.'||to_char(SYSDATE,'YYYYMMDDHH24MISS')||'.txt' AS "OUTPUT_NAME"
+       ,'true' AS "SAVE_OUTPUT"
+       ,fnd_profile.value('MFT_ICS_SFTP') AS "PARAMETER1"
+       ,:P_DEST_DIR AS "PARAMETER4"
+       ,'CCLFGL.CCLFGL_AVDJE.CCLJEES.'||to_char(SYSDATE,'YYYYMMDDHH24MISS')||'.txt' AS "PARAMETER5"
+       ,'true' AS "PARAMETER6"
+FROM   dual

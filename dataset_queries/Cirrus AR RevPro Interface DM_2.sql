@@ -1,0 +1,1 @@
+select '' as "DUMMY" from dual

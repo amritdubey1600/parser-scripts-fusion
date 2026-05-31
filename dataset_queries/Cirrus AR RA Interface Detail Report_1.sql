@@ -1,0 +1,1 @@
+select count(*) from GL_PERIOD_STATUSES
