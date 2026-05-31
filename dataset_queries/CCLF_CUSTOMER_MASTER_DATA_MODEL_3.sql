@@ -1,0 +1,1 @@
+select distinct(set_name)  from FND_SETID_SETS

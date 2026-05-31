@@ -1,0 +1,10 @@
+SELECT 'CCLFGL' as "KEY"
+      ,'text' as "OUTPUT_FORMAT"
+      ,'FTP' as "DEL_CHANNEL"
+      ,'GMAVCA.CCLFGL.CCLJEEXIES.txt' as "OUTPUT_NAME"
+      ,'true' as "SAVE_OUTPUT"
+      , FND_PROFILE.VALUE('CCLF_BI_SFTP_SERVER') as "PARAMETER1"
+      ,:P_DEST_DIR as "PARAMETER4"
+      ,'GMAVCA.CCLFGL.CCLJEEXIES.txt' as "PARAMETER5"
+      ,'true' as "PARAMETER6"
+FROM sys.dual

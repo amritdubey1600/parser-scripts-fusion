@@ -1,0 +1,5 @@
+select 'je_sources' key,'row_id'||'~'||'je_source_name'||'~'||'language'||'~'||'source_lang'||'~'||'last_update_date'||'~'||'last_updated_by'||'~'||'override_edits_flag'||'~'||'user_je_source_name'||'~'||'journal_reference_flag'||'~'||'journal_approval_flag'||'~'||'import_using_key_flag'||'~'||'effectivedate_rule_code'||'~'||'creation_date'||'~'||'created_by'||'~'||'last_update_login'||'~'||'description'||'~'||'attribute1'||'~'||'attribute2'||'~'||'attribute3'||'~'||'attribute4'||'~'||'attribute5'||'~'||'attribute_category'||'~'||'object_version_number' je_sources
+from dual
+union all
+select 'je_sources' key,row_id||'|'||je_source_name||'|'||language||'|'||source_lang||'|'||last_update_date||'|'||last_updated_by||'|'||override_edits_flag||'|'||user_je_source_name||'|'||journal_reference_flag||'|'||journal_approval_flag||'|'||import_using_key_flag||'|'||effective_date_rule_code||'|'||creation_date||'|'||created_by||'|'||last_update_login||'|'||REPLACE(DESCRIPTION ,'|','')||'|'||attribute1||'|'||attribute2||'|'||attribute3||'|'||attribute4||'|'||attribute5||'|'||attribute_category||'|'||object_version_number
+from gl_je_sources a
