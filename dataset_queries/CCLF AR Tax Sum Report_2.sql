@@ -1,0 +1,1 @@
+Select distinct segment1 from GL_CODE_COMBINATIONS

@@ -1,0 +1,1 @@
+select distinct RAC_BILL.customer_type  from  HZ_CUST_ACCOUNTS                RAC_BILL

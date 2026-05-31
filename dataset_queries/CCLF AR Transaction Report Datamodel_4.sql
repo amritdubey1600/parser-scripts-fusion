@@ -1,0 +1,1 @@
+select distinct  trx_number from ra_customer_trx_all

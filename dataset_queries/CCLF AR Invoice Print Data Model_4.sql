@@ -1,0 +1,1 @@
+select name,organization_id from hr_all_organization_units
