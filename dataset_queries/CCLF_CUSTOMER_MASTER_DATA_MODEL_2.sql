@@ -1,1 +1,0 @@
-select distinct hou.NAME from hr_all_organization_units hou where hou.name like '%BU%'

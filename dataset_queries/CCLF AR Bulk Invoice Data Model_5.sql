@@ -1,1 +1,0 @@
-select trx_number from ra_customer_trx_all where org_id in (:p_business_unit)

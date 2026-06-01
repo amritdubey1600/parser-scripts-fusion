@@ -1,1 +1,0 @@
-select meaning, lookup_code from ar_lookups where lookup_type = 'YES/NO'

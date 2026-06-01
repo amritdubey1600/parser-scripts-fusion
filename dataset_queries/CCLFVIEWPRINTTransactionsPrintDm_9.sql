@@ -1,1 +1,0 @@
-select name, batch_source_seq_id from ra_batch_sources_all order by name

@@ -1,1 +1,0 @@
-select distinct period_set_name from gl_periods

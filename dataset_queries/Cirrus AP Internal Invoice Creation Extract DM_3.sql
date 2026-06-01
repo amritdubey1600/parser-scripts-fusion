@@ -1,1 +1,0 @@
-SELECT 1 main FROM DUAL

@@ -1,1 +1,0 @@
-select Distinct RACTT.TYPE  from RA_CUST_TRX_TYPES_ALL  RACTT

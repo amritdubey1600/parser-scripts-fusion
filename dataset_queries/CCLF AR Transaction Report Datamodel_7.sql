@@ -1,1 +1,0 @@
-Select distinct ract.complete_flag  from ra_customer_trx_all ract

@@ -1,1 +1,0 @@
-select bu_name  from fun_all_business_units_v

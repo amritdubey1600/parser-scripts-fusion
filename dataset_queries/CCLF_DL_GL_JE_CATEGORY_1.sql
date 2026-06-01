@@ -1,5 +1,0 @@
-select 'je_categories' key,'row_id'||'~'||'je_category_name'||'~'||'language'||'~'||'source_lang'||'~'||'user_je_category_name'||'~'||'je_category_key'||'~'||'last_update_date'||'~'||'last_updated_by'||'~'||'creation_date'||'~'||'created_by'||'~'||'last_update_login'||'~'||'description'||'~'||'attribute1'||'~'||'attribute2'||'~'||'attribute3'||'~'||'attribute4'||'~'||'attribute5'||'~'||'attribute_category'||'~'||'consolidation_flag'||'~'||'object_version_number' je_categories
-from dual
-union all
-select  'je_categories' key,row_id||'|'||je_category_name||'|'||language||'|'||source_lang||'|'||user_je_category_name||'|'||je_category_key||'|'||last_update_date||'|'||last_updated_by||'|'||creation_date||'|'||created_by||'|'||last_update_login||'|'||description||'|'||attribute1||'|'||attribute2||'|'||attribute3||'|'||attribute4||'|'||attribute5||'|'||attribute_category||'|'||consolidation_flag||'|'||object_version_number
-from gl_je_categories a

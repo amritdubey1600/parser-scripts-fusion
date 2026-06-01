@@ -1,3 +1,0 @@
-SELECT 	
-DISTINCT(PERIOD_NAME)
-                     FROM FA_DEPRN_PERIODS
